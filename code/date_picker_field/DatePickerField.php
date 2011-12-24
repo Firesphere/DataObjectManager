@@ -28,7 +28,7 @@ HTML;
 			break;
 			
 			default:
-			self::$dateFormat = "dd/mm/yy";
+			self::$dateFormat = $format;
 			break;
 		}
 	}
